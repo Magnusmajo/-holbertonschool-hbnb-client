@@ -3,11 +3,13 @@
     You'll probably need to override some of these styles.
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: Arial, sans-serif;
+        font-family: 'Roboto', Arial, sans-serif;
 }
 
 body {
@@ -16,13 +18,13 @@ body {
 }
 
 header {
-        background-color: #333;
-        color: #fff;
+        background-color: #8b59c5;
+        color: #5e3636;
         padding: 1rem;
 }
 
 nav a {
-        color: #fff;
+        color: #ffffff;
         text-decoration: none;
         margin-left: 1rem;
 }

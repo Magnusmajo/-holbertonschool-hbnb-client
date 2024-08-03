@@ -8,21 +8,54 @@
 </head>
 <body>
     <header>
+        <img src="images/logo.png" alt="logo" class="logo">
         <nav>
-            <a href="login.html" id="login-link">Login</a>
+            <a href="login.html" id="login-link" class="login-button">Login</a>
+            <a href="index.html" id="home-link" class="home-button">Home</a>
         </nav>
     </header>
     <main>
         <section id="filter">
             <label for="country-filter">Filter by Country:</label>
             <select id="country-filter">
-                <!-- Options will be populated dynamically -->
+                <!-- Options populated dynamically -->
             </select>
         </section>
         <section id="places-list">
-            <!-- List of places will be populated dynamically -->
+            <!-- List of places populated dynamically -->
+            <div class="place-card">
+                <img src="images/place1.jpg" alt="Place 1" class="place-image">
+                <h2 class="place-name">Playa Pesquero</h2>
+                <p class="place-price">Price per night: $100</p>
+                <p class="place-location">Location: Holguin, Cuba</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/place2.jpg" alt="Place 2" class="place-image">
+                <h2 class="place-name">Grand Almirant</h2>
+                <p class="place-price">Price per night: $150</p>
+                <p class="place-location">Location: Santago ,Dominician Republic</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/place3.jpg" alt="Place 3" class="place-image">
+                <h2 class="place-name">Melia</h2>
+                <p class="place-price">Price per night: $200</p>
+                <p class="place-location">Location: Cayo Coco, Cuba</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/place4.jpg" alt="Place 4" class="place-image">
+                <h2 class="place-name">King's Garden</h2>
+                <p class="place-price">Price per night: $250</p>
+                <p class="place-location">Location: Cayo Coco, Cuba</p>
+                <button class="details-button">View Details</button>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>This is an Holberton School Project. All rights reserved.</p>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>

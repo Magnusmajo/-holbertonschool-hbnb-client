@@ -1,44 +1,145 @@
-/* 
-    This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks. 
+/*
+    This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks.
     You'll probably need to override some of these styles.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Estilos generales */
 
 * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-        background-color: #f4f4f4;
-        color: #333;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
+  /* Header y Nav */
+
 header {
-        background-color: #8b59c5;
-        color: #5e3636;
-        padding: 1rem;
+    background-color: #8c40ad;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+    margin-right: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #8e44ad;
 }
 
 nav a {
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
 }
+
+nav a:hover {
+    background-color: #7a288a;
+}
+
+  /* Buttons */
+
+.login-button,
+.inicio-button {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #555;
+}
+
+  /* Main content */
 
 main {
-        padding: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Fixed Parameters */
+  /* Tarjetas de lugares */
 
-.place-card,
+#places-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 2rem;
+}
+
+.place-card {
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.place-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+  /* Details from the place */
+
+#place-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.place-info {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  /* Reviews */
+
+#add-review {
+    padding: 2rem;
+}
+
 .review-card {
-        margin: 20px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  /* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #7a288a;
+    border-top: 1px solid #ddd;
 }

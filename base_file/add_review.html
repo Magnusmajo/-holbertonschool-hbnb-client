@@ -3,22 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Review</title>
+    <title>Place Details</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <img src="images/logo.png" alt="logo" class="logo">
+        <nav>
+            <a href="login.html" id="login-link" class="login-button">Login</a>
+            <a href="index.html" id="home-link" class="home-button">Home</a>
+        </nav>
+    </header>
     <main>
+        <section id="place-details">
+            <img src="images/place1.jpg" alt="Place 1" class="place-image">
+            <h2 class="place-name">Playa Pesquero</h2>
+            <div class="place-info">
+                <h2><strong>John Doe:</strong></h2>
+                <p>Price: $100 per night</p>
+                <p>Location: Cuba</p>
+                <p>Description: A wonderful Hotel in a wonderful place.</p>
+                <p>Amenities: WiFi, Pool, Gym, Spa, Beach...</p>
+            </div>
+            <!--Reviews-->
+            <section id="reviews">
+                <a href="add_review.html"><button>Add a Review</a>
+            </section>
+                <div class="review-card">
+                    <p><strong>Comment:</strong> Mijn oprechte respect, een luxe hotel.</p>
+                    <p><strong>User:</strong>Mr. Whelmoed</p>
+                    <p>Rating: 5.0</p>
+                </div>
+                <div class="review-card">
+                    <p><strong>Comment:</strong> Het is een prachtige plek, vol leven, met prachtige stranden, een prachtig uitzicht, uitstekende service, onstuitbare voorzieningen.</p>
+                    <p>User: Mr. Whelmoed</p>
+                    <p>Rating: 5.0</p>
+                </div>
+            </section>
         <form id="review-form">
             <h2>Add a Review</h2>
             <label for="place">Place:</label>
             <input type="text" id="place" name="place" readonly>
-            
             <label for="review">Review:</label>
             <textarea id="review" name="review" required></textarea>
-            
             <button type="submit">Submit</button>
         </form>
     </main>
     <script src="scripts.js"></script>
+    <footer>
+        <p><em>This is a Holberton School project. All rights reserved.</em></p>
+    </footer>
 </body>
 </html>

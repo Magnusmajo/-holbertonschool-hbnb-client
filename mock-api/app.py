@@ -7,10 +7,10 @@ app.config.from_object('config.Config')
 
 jwt = JWTManager(app)
 
-with open('data/users.json') as users_file:
+with open('mock-api/data/users.json') as users_file:
     users = json.load(users_file)
 
-with open('data/places.json') as places_file:
+with open('mock-api/data/places.json') as places_file:
     places = json.load(places_file)
 
 # Storage for new reviews

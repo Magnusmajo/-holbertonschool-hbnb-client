@@ -59,7 +59,7 @@ def get_place(place_id):
     place = next((p for p in places if p['id'] == place_id), None)
 
     if not place:
-        return jsonify({"msg": "Place not found"}), 404
+        return jsonify({"message": "Place not found"}), 404
 
     response = {
         "id": place['id'],

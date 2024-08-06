@@ -1,0 +1,147 @@
+[
+    {
+        "id": "place-1",
+        "host_id": "user-1",
+        "host_name": "John Doe",
+        "description": "A lovely place to stay.",
+        "price_per_night": 100.0,
+        "city_id": "city-1",
+        "city_name": "New York",
+        "country_code": "US",
+        "country_name": "United States",
+        "number_of_rooms": 3,
+        "number_of_bathrooms": 2,
+        "max_guests": 6,
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "amenities": ["WiFi", "Pool", "Air Conditioning"],
+        "reviews": [
+            {
+                "user_name": "Jane Smith",
+                "rating": 5,
+                "comment": "Amazing place, very clean and comfortable."
+            },
+            {
+                "user_name": "Alice Johnson",
+                "rating": 4,
+                "comment": "Great location but a bit noisy."
+            }
+        ]
+        },
+        {
+            "id": "place-2",
+            "host_id": "user-2",
+            "host_name": "Jane Doe",
+            "description": "Cozy apartment in the heart of the city.",
+            "price_per_night": 80.0,
+            "city_id": "city-2",
+            "city_name": "San Francisco",
+            "country_code": "US",
+            "country_name": "United States",
+            "number_of_rooms": 2,
+            "number_of_bathrooms": 1,
+            "max_guests": 4,
+            "latitude": 37.7749,
+            "longitude": -122.4194,
+            "amenities": ["WiFi", "Kitchen", "Gym"],
+            "reviews": [
+            {
+                "user_name": "Michael Johnson",
+                "rating": 4,
+                "comment": "Nice place, close to everything."
+            },
+            {
+                "user_name": "Emily Davis",
+                "rating": 5,
+                "comment": "Absolutely loved it! Will come back again."
+            }
+            ]
+        },
+        {
+            "id": "place-3",
+            "host_id": "user-3",
+            "host_name": "David Smith",
+            "description": "Spacious house with a beautiful garden.",
+            "price_per_night": 150.0,
+            "city_id": "city-3",
+            "city_name": "London",
+            "country_code": "GB",
+            "country_name": "United Kingdom",
+            "number_of_rooms": 4,
+            "number_of_bathrooms": 3,
+            "max_guests": 8,
+            "latitude": 51.5074,
+            "longitude": -0.1278,
+            "amenities": ["WiFi", "Garden", "Parking"],
+            "reviews": [
+            {
+                "user_name": "Sophia Wilson",
+                "rating": 5,
+                "comment": "Absolutely stunning property!"
+            },
+            {
+                "user_name": "Oliver Johnson",
+                "rating": 4,
+                "comment": "Great location and very comfortable."
+            }
+            ]
+        },
+        {
+            "id": "place-4",
+            "host_id": "user-4",
+            "host_name": "Emma Davis",
+            "description": "Modern apartment with a view of the ocean.",
+            "price_per_night": 200.0,
+            "city_id": "city-4",
+            "city_name": "Sydney",
+            "country_code": "AU",
+            "country_name": "Australia",
+            "number_of_rooms": 2,
+            "number_of_bathrooms": 2,
+            "max_guests": 4,
+            "latitude": -33.8688,
+            "longitude": 151.2093,
+            "amenities": ["WiFi", "Ocean View", "Swimming Pool"],
+            "reviews": [
+            {
+                "user_name": "Liam Wilson",
+                "rating": 5,
+                "comment": "Incredible place, loved every moment."
+            },
+            {
+                "user_name": "Ava Johnson",
+                "rating": 4,
+                "comment": "Beautiful apartment, highly recommended."
+            }
+            ]
+        },
+        {
+            "id": "place-5",
+            "host_id": "user-5",
+            "host_name": "Noah Smith",
+            "description": "Rustic cabin in the mountains.",
+            "price_per_night": 120.0,
+            "city_id": "city-5",
+            "city_name": "Denver",
+            "country_code": "US",
+            "country_name": "United States",
+            "number_of_rooms": 1,
+            "number_of_bathrooms": 1,
+            "max_guests": 2,
+            "latitude": 39.7392,
+            "longitude": -104.9903,
+            "amenities": ["WiFi", "Fireplace", "Hiking Trails"],
+            "reviews": [
+            {
+                "user_name": "Mia Davis",
+                "rating": 5,
+                "comment": "Perfect getaway, loved the peaceful surroundings."
+            },
+            {
+                "user_name": "James Wilson",
+                "rating": 4,
+                "comment": "Great place to relax and unwind."
+            }
+            ]
+        }
+        ]

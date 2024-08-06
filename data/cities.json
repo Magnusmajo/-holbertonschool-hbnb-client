@@ -1,0 +1,98 @@
+
+[
+    {
+    "id": "city-1",
+    "name": "New York",
+    "country_code": "US"
+},
+{
+    "id": "city-2",
+    "name": "San Francisco",
+    "country_code": "US"
+},
+{
+    "id": "city-3",
+    "name": "Los Angeles",
+    "country_code": "US"
+},
+{
+    "id": "city-4",
+    "name": "Chicago",
+    "country_code": "US"
+},
+{
+    "id": "city-5",
+    "name": "Miami",
+    "country_code": "US"
+},
+{
+    "id": "city-6",
+    "name": "Toronto",
+    "country_code": "CA"
+},
+{
+    "id": "city-7",
+    "name": "Vancouver",
+    "country_code": "CA"
+},
+{
+    "id": "city-8",
+    "name": "Montreal",
+    "country_code": "CA"
+},
+{
+    "id": "city-9",
+    "name": "Mexico City",
+    "country_code": "MX"
+},
+{
+    "id": "city-10",
+    "name": "London",
+    "country_code": "GB"
+},
+{
+    "id": "city-11",
+    "name": "Paris",
+    "country_code": "FR"
+},
+{
+    "id": "city-12",
+    "name": "Berlin",
+    "country_code": "DE"
+},
+{
+    "id": "city-13",
+    "name": "Tokyo",
+    "country_code": "JP"
+},
+{
+    "id": "city-14",
+    "name": "Sydney",
+    "country_code": "AU"
+},
+{
+    "id": "city-15",
+    "name": "Melbourne",
+    "country_code": "AU"
+},
+{
+    "id": "city-16",
+    "name": "Rio de Janeiro",
+    "country_code": "BR"
+},
+{
+    "id": "city-17",
+    "name": "Rome",
+    "country_code": "IT"
+},
+{
+    "id": "city-18",
+    "name": "Milan",
+    "country_code": "IT"
+},
+{
+    "id": "city-19",
+    "name": "Madrid",
+    "country_code": "ES"
+}
+]

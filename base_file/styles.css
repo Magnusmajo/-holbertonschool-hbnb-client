@@ -154,8 +154,8 @@ input[type="email"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
 }
 
 button[type="submit"] {
@@ -163,13 +163,13 @@ button[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #4caf50;
+    background-color: #24a929;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #3d9e41;
 }

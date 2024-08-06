@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template, request
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
+import json
 
 app = Flask(__name__)
 app.config.from_object('config.Config')
@@ -26,7 +27,7 @@ def show_login():
         password = request.json.get('password')
 
         user = next((u for u in users if u['email'] == email and u['password'] == password), None)
-    
+
         if not user:
             print(f"User not found or invalid password for: {email}")
             return jsonify({"msg": "Invalid credentials"}), 401

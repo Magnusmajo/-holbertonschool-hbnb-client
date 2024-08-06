@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: 'Courier', 'Lucida Console', monospace;
 }
 
 body {
@@ -55,12 +55,11 @@ nav a:hover {
 
   /* Buttons */
 
-.login-button,
-.inicio-button {
+.login-button {
     background-color: #333;
     color: #fff;
     padding: 1rem 2rem;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
